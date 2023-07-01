@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro formulário</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+      </style>
+</head>
+<body>
+    <header>
+        <h1>Meu primeiro formulário</h1>
+        <p>Complete suas informações</p>
+    </header>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Dados Pessoais:</legend>
+            <div>
+                <label for="name">Nome:</label>
+                <input required placeholder="Digite aqui seu nome" id="name" type="text">
+            </div>
+            <div>
+                <label for="email">E-mail:</label>
+                <input required placeholder="Digite aqui seu email" type="email" id="email">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Opções:</legend>
+            <label for="select">Escolha uma das opções:</label>
+            <select name="select" id="select">
+                <option value="" selected disabled>Selecionar</option>
+                <option value="item1">Item 1</option>
+                <option value="item2">Item 2</option>
+                <option value="item3">Item 3</option>
+                <option value="item4">Item 4</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Radio Button</legend>
+            <input type="radio" name="radio" id="radio1">
+            <label for="radio1">Item 1</label>
+            <input type="radio" name="radio" id="radio2">
+            <label for="radio2">Item 2</label>
+            <input type="radio" name="radio" id="radio3">
+            <label for="radio3">Item 3</label>
+        </fieldset>
+        <fieldset>
+            <legend>Checkbox</legend>
+            <input type="checkbox" id="checkbox1">
+            <label for="checkbox1">Item 1</label>
+            <input type="checkbox" id="checkbox2">
+            <label for="checkbox2">Item 2</label>
+            <input type="checkbox" id="checkbox3">
+            <label for="checkbox3">Item 3</label>
+        </fieldset>
+        <fieldset>
+            <legend>Área de texto</legend>
+            <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+        </fieldset>
+        <div class="buttons">
+            <button type="submit" id="enviar">Enviar</button>
+            <button type="reset" id="apagar">Apagar</button>
+        </div>
+    </form>
+</body>
+</html>

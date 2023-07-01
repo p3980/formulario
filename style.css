@@ -1,0 +1,84 @@
+body{
+    font-family: 'Oswald', sans-serif;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header{
+    margin-top: 10px;
+    background-color: hotpink;
+    width: 100vh;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+form{
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 20px;
+    width: 100vh;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+fieldset{
+    width: 50vh;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 8px;
+    display: block;
+}
+
+input{
+    border: 2px solid grey;
+    border-radius: 3px;
+    padding: 5px;
+    margin: 5px;
+}
+
+input:hover{
+    border: 2px solid black;
+    background-color: lightgrey;
+}
+
+select{
+    border: 2px solid grey;
+    border-radius: 3px;
+}
+
+select:hover{
+    border: 2px solid black;
+    background-color: lightgrey;
+}
+
+button{
+    margin: 5px 5px 12px 5px;
+    border: 2px;
+    border-radius: 3px;
+}
+
+#enviar{
+    background-color: lightgreen;
+    border: solid green;
+    opacity: .7;
+}
+
+#enviar:hover{
+    opacity: 1;
+}
+
+#apagar{
+    background-color: indianred;
+    border: solid red;
+    opacity: .7;
+}
+
+#apagar:hover{
+    opacity: 1;
+}
